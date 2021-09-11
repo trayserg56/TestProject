@@ -1,0 +1,1135 @@
+@import config
+@import 'blocks/**/*'
+@import app/styles/sass/fonts.sass
+a
+    &:hover
+        text-decoration: none
+*
+    margin: 0
+    padding: 0
+p
+    margin: 0
+    padding: 0
+ul
+    margin: 0
+h1, h2, h3, h4, h5, h6
+    padding: 0
+    margin: 0
+.limiter
+    width: 1340px
+    margin: 0 auto
+.header__items
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 36px
+.header__ul
+    display: flex
+    li
+        margin-right: 36px
+        list-style: none
+        &:last-child
+            margin-right: 0
+        a
+            color: #000000
+            font-family: Golos
+            text-decoration: none
+            font-size: 18px
+            &:hover
+                color: #FF28C7
+.header__check
+    a
+        display: inline-block
+        width: 229px
+        height: 58px
+        border: 2px solid #FF42A4
+        border-radius: 48px
+        text-align: center
+        line-height: 58px
+        text-decoration: none
+        color: #000000
+        font-family: Golos
+        font-size: 18px
+        &:hover
+            color: #FA29C4
+            border: 2px solid #FA29C4
+.blockmain
+    margin-top: 62px
+    margin-bottom: 200px
+.blockmain__items
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: relative
+.blockmain__item
+    &:last-child
+        &:last-child
+            position: relative
+            z-index: -1
+.blockmain__offer
+    h1
+        font-family: Playfair Display
+        font-style: normal
+        font-weight: normal
+        font-size: 70px
+        line-height: 100%
+        text-transform: uppercase
+        color: #000000
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: -50px
+        top: -50px
+        background: url(../images/dist/linemain.svg)
+        background-repeat: no-repeat
+        width: 1179.75px
+        height: 538.6px
+        z-index: 10
+.blockmain__disc
+    margin-top: 50px
+    margin-bottom: 71px
+    h2
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 138%
+        color: #000000
+        width: 349px
+.blockmain__button
+    a
+        display: inline-block
+        width: 223px
+        height: 63px
+        background: #F143C4
+        border-radius: 48px
+        text-align: center
+        line-height: 63px
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        color: #FFFFFF
+        text-decoration: none
+        cursor: pointer
+        position: relative
+        z-index: 99
+        &:hover
+            background: #FA29C4
+.textblockfirtstitems
+    display: flex
+    align-items: center
+    position: relative
+    img
+        margin-right: 25px
+        margin-left: 25px
+    &::after
+        content: '01'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        color: #000000
+        left: 0
+        top: -30px
+.textblockh3
+    font-family: Playfair Display
+    font-style: normal
+    font-weight: normal
+    font-size: 70px
+    text-transform: uppercase
+    color: #000000
+    line-height: 107.5%
+.textblockpl
+    padding-left: 340px
+.textblockmedium
+    margin-top: 105px
+    margin-bottom: 105px
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: 50px
+        top: 60px
+        background: url(../images/dist/textmiddle.svg)
+        width: 1016px
+        height: 48.42px
+        z-index: 10
+.textblocklastinner
+    display: flex
+    align-items: center
+    img
+        margin-left: 330px
+.textlastline
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        right: 330px
+        top: 0
+        background: url(../images/dist/textlast.svg)
+        width: 686.94px
+        height: 84.04px
+        z-index: 10
+.portfolio
+    display: flex
+    margin-top: 113px
+    justify-content: flex-end
+.limiterportfolio
+    width: 93.3%
+.prev
+    width: 40px
+    height: 40px
+    background: #000
+.ArrowPrev
+    width: 77px
+    height: 77px
+    background: #707DEC
+    background-image: url(../images/dist/left.svg)
+    border-radius: 100px
+    cursor: pointer
+    margin-right: 20px
+    background-repeat: no-repeat
+    background-position: center
+    
+.ArrowNext
+    width: 77px
+    height: 77px
+    background: #707DEC
+    background-image: url(../images/dist/right.svg)
+    border-radius: 100px
+    cursor: pointer
+    background-repeat: no-repeat
+    background-position: center
+.nav
+    display: flex
+    margin-top: 80px
+    margin-left: 340px
+.skills
+    margin-top: 200px
+.skills__items
+    position: relative
+    &::after
+        content: '02'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #000
+        left: 0
+        top: 10px
+.skills__offer
+    margin-bottom: 100px
+    h3
+        &:last-child
+            width: 1230px
+.progaoffer
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: 79px
+        bottom: -10px
+        background: url(../images/dist/proga.svg)
+        width: 620.99px
+        height: 39.46px
+        z-index: 10
+.skills__mainitems
+    display: flex
+    justify-content: space-between
+.skills__item
+    max-width: 373px
+    &:last-child
+        margin-right: 0
+.skills__item__img
+    margin-bottom: 70px
+    height: 143px
+.skills__item__offer
+    margin-bottom: 30px
+    h4
+        font-family: Golos
+        font-style: normal
+        font-weight: bold
+        font-size: 30px
+        color: #000000
+        line-height: 108%
+.skills__item__disc
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 138%
+        color: #000000
+.forwho
+    margin-top: 210px
+.forwho__offer
+    margin-bottom: 108px
+    position: relative
+    &::after
+        content: '03'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #000
+        left: 0
+        top: 10px
+.forwho__items
+    display: flex
+    flex-wrap: wrap
+.forwho__item
+    width: 323px
+    height: 185px
+    background: #707DEC
+    border-radius: 35px
+    margin-right: 16px
+    margin-bottom: 10px
+    position: relative
+    &:nth-child(4n)
+        margin-right: 0
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: 21px
+        top: 19px
+        width: 25px
+        height: 25px
+        background: url(../images/dist/star.svg)
+.forwho__item
+    p
+        max-width: 254px
+        font-family: Golos
+        font-weight: normal
+        font-size: 18px
+        line-height: 124%
+        color: #FFFFFF
+        margin-left: 48px
+        margin-top: 47px
+.modules
+    margin-top: 207px
+    margin-bottom: 200px
+    position: relative
+.modules__offer
+    margin-bottom: 100px
+.modul
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: 50%
+        transform: translate(0, -50%)
+        bottom: -10px
+        background: url(../images/dist/modul.svg)
+        width: 81px
+        height: 86px
+        z-index: 10
+    &::before
+        content: '04'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #000
+        left: 0
+        top: 0px
+.accordion
+    font-family: Golos
+    font-style: normal
+    font-weight: normal
+    font-size: 30px
+    color: #000000
+    height: 100px
+    background: #fff
+    color: #444
+    cursor: pointer
+    width: 100%
+    text-align: left
+    outline: none
+    transition: 0.4s
+    border-left: none
+    border-right: none
+    border-top: none
+    border-bottom: 1px solid #000000
+    position: relative
+    &:first-child
+        border-top: 1px solid #000000
+    span
+        color: #FF43A5
+    &::after
+        &::after
+        content: ''
+        display: block
+        position: absolute
+        right: 0
+        top: 35px
+        background: url(../images/dist/plus.svg)
+        width: 28px
+        height: 26px
+        z-index: 10
+    p
+        z-index: 20
+.accfaq
+    p
+        position: relative
+        z-index: 20
+.accordion.active
+    border-bottom: none
+    &:hover
+        background-color: #fff
+    &::after
+        &::after
+        content: ''
+        display: block
+        position: absolute
+        right: 5px
+        top: 30px
+        background: url(../images/dist/closw.svg)
+        width: 29px
+        height: 30px
+        z-index: 10
+
+/* Style the accordion panel. Note: hidden by default */
+.panel 
+    background-color: white
+    display: none
+    border-bottom: 1px solid #000
+    padding-bottom: 60px
+    position: relative
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 138%
+        color: #000000
+        max-width: 997px
+.modules__cifra
+    position: absolute
+    left: 0
+    top: 30px
+    font-size: 24px!important
+.modules__img
+    position: absolute
+    left: 60px
+    top: -125px
+    z-index: 9999999999999999
+.tariffs
+    background: #707DEC
+    padding-top: 150px
+    padding-bottom: 150px
+.tariffs__offer
+    position: relative
+    h3
+        color: #fff
+    &::after
+        content: '05'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #fff
+        left: 0
+        top: -30px
+.tariffs__items
+    display: flex
+    justify-content: space-between
+    margin-top: 102px
+.tariffs__item
+    width: 419px
+    background: #fff
+    border-radius: 35px
+.tarifpce
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        top: 0
+        left: -15px
+        background: url(../images/dist/tarifcircle.svg)
+        width: 448.7px
+        height: 353.9px
+        z-index: 10
+.tariffs__item__img
+    padding-left: 56px
+    padding-top: 60px
+.tariffs__item__offer
+    padding-left: 44px
+    h4
+        font-family: Playfair Display
+        font-style: normal
+        font-weight: normal
+        font-size: 36px
+        line-height: 108%
+        text-transform: uppercase
+        color: #000000
+.mb12
+    margin-top: 12px
+.mt44
+    margin-top: 44px
+.mt28
+    margin-top: 28px
+.tariffs__line
+    width: 100%
+    height: 1px
+    background: #000
+    margin-top: 45px
+.tariffs__item__top
+    height: 335px
+    border-bottom: 1px solid #000
+.dopli
+    color: #B8B8B8!important
+    &::before
+        content: ''
+        display: block
+        position: absolute
+        left: 0px
+        top: 4px
+        width: 11px
+        height: 12px!important
+        background: url(../images/dist/ellipsegrey.svg)!important
+.spanli
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        left: -3px
+        top: 11px
+        width: 105%
+        height: 1px
+        background: #000000
+.tariffs__item__disc
+    margin-top: 45px
+    margin-left: 41px
+    ul
+        li
+            list-style: none
+            font-family: Golos
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 125%
+            color: #000000
+            padding-left: 24px
+            margin-bottom: 31px
+            position: relative
+            max-width: 307px
+            &:last-child
+                margin-bottom: 0
+            &::before
+                content: ''
+                display: block
+                position: absolute
+                left: 0px
+                top: 4px
+                width: 11px
+                height: 11px
+                background: url(../images/dist/ellipse.svg)
+.tariffs__item__sroki
+    margin-left: 41px
+    margin-top: 50px
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 125%
+        text-transform: uppercase
+        color: #101010
+.tariffs__item__stoimost
+    margin-left: 41px
+    margin-top: 25px
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 125%
+        color: #000000
+.tariffs__item__price
+    margin-left: 41px
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: bold
+        font-size: 50px
+        line-height: 125%
+        color: #000000
+.tariffs__item__button
+    display: flex
+    justify-content: center
+    margin-top: 65px
+    padding-bottom: 56px
+.tariffs__item__button_buy
+    display: inline-block
+    width: 333px
+    height: 63px
+    background: #FF43A5
+    border-radius: 48px
+    margin: 0 auto
+    text-align: center
+    line-height: 63px
+    text-decoration: none
+    font-family: Golos
+    font-style: normal
+    font-weight: normal
+    font-size: 20px
+    color: #FFFFFF
+    &:hover
+        background: #fa29c4
+        color: #fff
+footer
+    background: #707DEC
+    padding-top: 50px
+    padding-bottom: 50px
+.faq
+    margin-top: 200px
+    margin-bottom: 178px
+.faqoffer
+    margin-bottom: 104px
+    position: relative
+    &::after
+        content: '06'
+        display: block
+        position: absolute
+        font-family: Golos
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #000
+        left: 0
+        top: -30px
+.faq__items
+    position: relative
+    &::after
+        content: ''
+        display: block
+        position: absolute
+        top: 45%
+        transform: translate(-50%, 0)
+        left: 41%
+        transform: translate(0, -45%)
+        background: url(../images/dist/ques.svg)
+        background-repeat: no-repeat
+        width: 218.96px
+        height: 387.06px
+        // z-index: 10
+.footer__items
+    display: flex
+    justify-content: space-between
+    align-items: center
+.footer__links
+    display: flex
+    a
+        margin-left: 35px
+        &:first-child
+            margin-left: 0
+.footer__politika
+    margin-left: 60px
+    a
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        text-decoration-line: underline
+        color: #FFFFFF
+.footer__item
+    p
+        font-family: Golos
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        color: #FFFFFF
+.dblock
+    display: block
+.dnone
+    display: none
+.mnone
+    display: none
+@media screen and (max-width: 1340px)
+    .limiter
+        width: 96%
+    .header__items
+        margin-top: 15px
+    .header__ul
+        li
+            margin-right: 20px
+            a
+                font-size: 16px
+    .blockmain__items
+        &::after
+            display: none
+    .blockmain__img
+        img
+            width: 95%
+    .blockmain__offer
+        h1
+            font-size: 60px
+    .blockmain__disc
+        margin-bottom: 50px
+    .header__logo
+        padding-bottom: 10px
+    .blockmain
+        margin-top: 30px
+        margin-bottom: 70px
+    .textblockh3
+        font-size: 60px
+    .textblockmedium
+        margin-top: 55px
+        margin-bottom: 55px
+    .textlastline
+        &::after
+            right: 1px
+    .portfolio
+        margin-top: 65px
+    .portfolio__item
+        margin-right: 10px
+        // width: 300px!important
+        img
+            width: 100%
+            height: 100%
+    .limiterportfolio
+        width: 97%
+    .nav
+        margin-top: 30px
+        margin-left: 207px
+    .skills
+        margin-top: 60px
+    .skills__item
+        padding-right: 50px
+        &:last-child
+            padding-right: 0
+    .skills__offer
+        margin-bottom: 160px
+        height: 65px
+    .skills__item__offer
+        h4
+            font-size: 27px
+    .forwho
+        margin-top: 60px
+    .forwho__item
+        margin-right: 0
+        width: 32%
+    .forwho__items
+        justify-content: space-between
+    .modul
+        &::after
+            left: 65%
+            bottom: -52px
+    .faqpadding
+        padding-left: 250px
+    .modules__img
+        width: 18%
+        left: 60px
+        top: -105px
+    .modules
+        margin-bottom: 60px
+        margin-top: 60px
+    .tariffs
+        padding-top: 50px
+        padding-bottom: 50px
+    .tariffs__items
+        margin-top: 50px
+    .tariffs__item
+        width: 316px
+    .tariffs__item__button_buy
+        width: 95%
+    .tariffs__item__button
+        margin-top: 45px
+    .faq
+        margin-top: 60px
+        margin-bottom: 60px
+    .header__logo
+        padding-bottom: 0
+@media screen and (max-width: 998px)
+    .textblockh3
+        font-size: 50px
+@media screen and (max-width: 984px)
+    .tariffs__item
+        width: 33%
+    .portfolio__item
+        // width: 270px!important
+    .blockmain__img
+        img
+            width: 100%
+            height: 100%
+    .flex__header
+        display: flex
+        justify-content: flex-end
+        width: 85%
+    .blockmain__offer
+        h1
+            font-size: 50px
+    .skills__offer
+        h3
+            &:last-child
+                width: 100%
+    .tariffs__item__disc
+        margin-left: 20px
+@media screen and (max-width: 809px)
+    .portfolio__item
+        // width: 240px!important
+    .header__item
+        &:nth-child(2n)
+            display: none
+        &:last-child
+            display: none
+    .blockmain__offer
+        h1
+            font-size: 40px
+    .textblockh3
+        font-size: 40px
+    .textblockpl
+        padding-left: 268px
+    .textblocklastinner
+        img
+            margin-left: 155px
+    .textblockmedium
+        &::after
+            display: none
+    .textlastline
+        &::after
+            display: none
+    .textblockmedium
+        margin-top: 25px
+        margin-bottom: 25px
+    .textblockpl
+        padding-left: 165px
+    .modules__img
+        display: none
+    .panel
+        padding-bottom: 40px
+    .accordion
+        font-size: 26px
+    .forwho__item
+        p
+            margin-left: 20px
+    .forwho__item
+        &::after
+            top: 15px
+            left: 10px
+    .nav
+        margin-left: 155px
+    .skills__offer
+        margin-bottom: 110px
+    .forwho__item
+        width: 48%
+    .forwho__items
+        justify-content: space-around
+@media screen and (max-width: 769px)
+    .tariffs__item__sroki
+        margin-left: 20px
+    .tariffs__item__stoimost
+        margin-left: 20px
+    .tariffs__item__price
+        margin-left: 20px
+    .tarifpce
+        &::after
+            display: none
+    .tariffs__item__offer
+        h4
+            font-size: 28px
+    .portfolio__item
+        // width: 210px!important
+    .textblockfirtstitems
+        img
+            width: 8%
+    .textblocklastinner
+        img
+            width: 10%
+    .tariffs__item__price
+        p
+            font-size: 42px
+    .portfolio__item
+        // width: 190px!important
+@media screen and (max-width: 683px)
+    .accordion
+        font-size: 21px
+    .textblockpl
+        padding-left: 100px
+    .tariffs__item
+        width: unset
+        margin-bottom: 25px
+    .tariffs__items
+        flex-direction: column
+    .footer__items
+        flex-direction: column
+    .footer__politika
+        margin-left: 0
+    .footer__item
+        margin-bottom: 10px
+    .skills__mainitems
+        flex-direction: column
+    .skills__item
+        max-width: 100%
+        padding-right: 0
+        margin-bottom: 25px
+    .skills__item__img
+        margin-bottom: 20px
+    .skills__item__offer
+        margin-bottom: 20px
+    .skills__offer
+        height: 100px
+    .textblockh3
+        font-size: 34px
+    .forwho__offer
+        margin-bottom: 60px
+    .accordion
+        font-size: 16px
+    .faq__items
+        &::after
+            display: none
+@media screen and (max-width: 509px)
+    .textblockpl
+        padding-left: 45px
+    .modules__cifra
+        font-size: 16px!important
+    .textblocklastinner
+        img
+            margin-left: 40px
+    .blockmain__items
+        flex-direction: column-reverse
+    .header__logo_logo
+        width: 155px
+    .blockmain
+        margin-top: 15px
+    .limiter
+        width: 94%
+    .blockmain__offer
+        margin-top: 32px
+    .blockmain__disc
+        margin-top: 18px
+        margin-bottom: 36px
+    .blockmain__button
+        a
+            width: 70%
+    .textblockfirtstitems
+        img
+            margin-left: 0
+    .textblockfirtstitems
+        img
+            width: 14%
+            margin-right: 8px
+    .textblockpl
+        padding-left: 80px
+    .textblocklastinner
+        img
+            margin-left: 0
+    .textblockmedium
+        h3
+            display: flex
+            flex-direction: column
+            span
+                &:last-child
+                    padding-left: 80px
+    .textblockfirtstitems
+        h3
+            display: flex
+            flex-direction: column
+            span
+                &:last-child
+                    padding-left: 18px
+    .nav
+        display: none
+    .progaoffer
+        &::after
+            display: none
+    .skills__item__img
+        img
+            width: 104px
+    .skills__item__offer
+        h4
+            font-weight: 500
+    .forwho__items
+        flex-direction: column
+    .forwho__item
+        width: 100%
+        height: 100%
+        padding-bottom: 40px
+        p
+            margin-left: 49px
+    .textblockpl
+        padding-left: 40px
+    .accordion
+        height: 80px
+        color: #000
+        p
+            max-width: 285px
+            font-weight: 500
+        &::after
+            top: 25px
+    .panel
+        padding-bottom: 20px
+        p
+            padding-left: 0!important
+    .modules__offer
+        margin-bottom: 40px
+    .blockmain__disc
+        h2
+            width: 100%
+            padding-left: 60px
+    .blockmain__offer
+        h1
+            display: flex
+            flex-direction: column
+            br
+                display: none
+            span
+                &:last-child
+                    margin-left: 60px
+    .burger
+        position: absolute
+        right: 15px
+        top: 0
+    .burgeropen
+        top: 0
+        position: fixed
+        z-index: 9999999999
+        height: 100vh
+        width: 100%
+        background: #707DEC
+    .close
+        position: absolute
+        right: 9.5px
+        top: 16px
+    .burgeropen__content
+        height: 100vh
+    .burgeropen__ul
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        ul
+            li
+                list-style: none
+                margin-top: 10px
+                text-align: center
+                &:nth-child(3n)
+                    background: url(../images/dist/closebefore.svg)
+                    background-repeat: no-repeat
+                    background-position: center
+                &:first-child
+                    margin-top: 0
+                a
+                    color: #000
+                    font-family: Playfair Display
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 34px
+                    line-height: 45px
+                    text-transform: uppercase
+                    color: #FFFFFF
+    .forwho__item
+        p
+            font-size: 16px
+    .blockmain__offer
+        &::after
+            display: block
+            background: url(../images/dist/mheaderline.svg)
+            background-repeat: no-repeat
+            width: 450px
+            height: 255px
+            left: 0
+            top: -70px
+    .textblockmedium
+        &::after
+            display: block
+            background: url(../images/dist/mtextmiddle.svg)
+            background-repeat: no-repeat
+            width: 247px
+            height: 15px
+            top: 25px
+            left: 15px
+    .textlastline
+        &::after
+            display: block
+            background: url(../images/dist/mtextbottom.svg)
+            width: 385px
+            height: 46px
+            background-repeat: no-repeat
+            left: -7px
+    .skills__offer
+        h3
+            &::after
+                display: block
+                width: 297px
+                height: 20px
+                background: url(../images/dist/mprogramm.svg)
+                left: 0
+                top: 94px
+    .modul
+        &::after
+            display: block
+            width: 39px
+            height: 42px
+            background: url(../images/dist/mmodule.svg)
+            top: 0
+            left: 55%
+    .faq__items
+        &::after
+            display: block
+            background: url(../images/dist/mfaq.svg)
+            width: 200.53px
+            height: 345.62px
+            background-repeat: no-repeat
+            left: 21%
+    .forwho__item
+        &::after
+            left: 15px
+@media screen and (max-width: 415px)
+    .blockmain__items
+        align-items: unset
+        flex-direction: column-reverse
+    .flex__header
+        width: 100%
+    .blockmain__button
+        display: flex
+        justify-content: center
+    .mnone
+        display: block
+    .mblock
+        display: none
+    .tariffs__item
+        margin-right: 10px
+        &:last-child
+            margin-right: 0
+    .limitermobile
+        width: 100%!important
+    .tariffs
+        padding-left: 20px
+    .tariffs__item__img
+        padding-left: 21px
+        padding-top: 33px
+    .tariffs__item__offer
+        padding-left: 20px
+    .tariffs__item__top
+        height: 255px
+    .mt44
+        margin-top: 30px
+    .tariffs__item__offer
+        padding-bottom: 35px
+        h4
+            font-size: 24px
+            br
+                display: none
+@media screen and (max-width: 321px)
+    .textblockpl
+        padding-left: 25px
